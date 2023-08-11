@@ -4,9 +4,10 @@ import Router from 'koa-router';
 import WechatSign from '@jswork/wechat-signature';
 
 const port = nx.$conf.get('server.port');
+const appConfig = nx.$conf.get('app');
 const app = new Koa();
 const router = new Router();
-const wechatSign = new WechatSign();
+const wechatSign = new WechatSign(appConfig);
 
 router.get('/wxapi/ok', (ctx) => {
   ctx.body = { status: 200, data: 'ok' };
