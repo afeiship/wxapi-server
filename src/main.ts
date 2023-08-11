@@ -15,6 +15,7 @@ router.get('/wxapi/ok', (ctx) => {
 
 router.get('/wxapi/jsticket', async (ctx) => {
   const { url } = ctx.query;
+  if (!url) return (ctx.body = { status: 500, data: 'url is required!' });
   const res = await wechatSign.get(url);
   ctx.body = { status: 200, data: res };
 });
