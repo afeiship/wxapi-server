@@ -1,0 +1,9 @@
+name: "wxapi-server"
+version: 1.0.0
+
+server:
+  port: 3300
+
+app:
+  appId: 'demo-i'
+  appSecret: 'demo-secret'

@@ -1,0 +1,6 @@
+### hello
+
+GET http://127.0.0.1:3300/wxapi/ok
+
+### jsticket
+GET http://127.0.0.1:3300/wxapi/jsticket?url='https%3A%2F%2Fwww.baidu.com'

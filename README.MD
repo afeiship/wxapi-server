@@ -1,7 +1,12 @@
-#fei-meteor
-Meteor learning.
+# wxapi-server
+> Api server for wechat.
 
+## get-started
+```shell
+npm run start -- --hello=world
+```
 
-## resources:
-+ https://www.zhihu.com/question/20296322
-+ http://zh.discovermeteor.com/chapters/getting-started/fei-meteor
+```conf
+{ hello: 'world' } { name: 'ts-app', version: '1.0.0' }
+hello app: 🥬 1.1.5
+```
