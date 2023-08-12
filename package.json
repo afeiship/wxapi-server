@@ -11,7 +11,8 @@
     "watch-dev": "nodemon --watch \"dist/**/*\" -e js ./dist/main.js",
     "build": "swc src -d dist",
     "start": "NODE_ENV=production node dist/main.js",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepare": "husky install"
   },
   "license": "MIT",
   "devDependencies": {
@@ -21,6 +22,7 @@
     "@types/node": "^18.14.1",
     "chokidar": "^3.5.3",
     "concurrently": "^7.6.0",
+    "husky": "^8.0.3",
     "nodemon": "^2.0.20",
     "ts-node": "^10.2.1",
     "tsconfig-paths": "^3.11.0",
