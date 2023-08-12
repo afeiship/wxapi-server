@@ -5,15 +5,15 @@ import WechatSign from '@jswork/wechat-signature';
 
 const port = nx.$conf.get('server.port');
 const appConfig = nx.$conf.get('app');
-const app = new Koa();
-const router = new Router();
 const wechatSign = new WechatSign(appConfig);
+const app = new Koa();
+const router = new Router({ prefix: '/wxapi' });
 
-router.get('/wxapi/ok', (ctx) => {
+router.get('/ok', (ctx) => {
   ctx.body = { status: 200, data: 'ok' };
 });
 
-router.get('/wxapi/jsticket', async (ctx) => {
+router.get('/jsticket', async (ctx) => {
   const { url } = ctx.query;
   if (!url) return (ctx.body = { status: 500, data: 'url is required!' });
   const res = await wechatSign.get(url);
