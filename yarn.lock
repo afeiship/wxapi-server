@@ -85,9 +85,9 @@
   dependencies:
     "@jswork/next-is-plain-object" "^1.0.4"
 
-"@jswork/next-require@^1.0.4":
+"@jswork/next-require@^1.0.5":
   version "1.0.5"
-  resolved "https://registry.npmmirror.com/@jswork/next-require/-/next-require-1.0.5.tgz#6d5a7e4a8c5d974bedca2687aa2b572cbaa84add"
+  resolved "https://registry.npmjs.org/@jswork/next-require/-/next-require-1.0.5.tgz#6d5a7e4a8c5d974bedca2687aa2b572cbaa84add"
   integrity sha512-KhM91lYcbh/nhIif+M+1R1v2Bq+V/iXdz0PGgAHt9eIUm66Z24n5jgrDnissrz0cmEufdMu1gVv8D3n3XTJP4w==
   dependencies:
     "@jswork/next-arrayify" "^1.0.0"
@@ -103,9 +103,9 @@
   resolved "https://registry.npmmirror.com/@jswork/next-secret-tmpl/-/next-secret-tmpl-1.0.1.tgz#9dd45f32f114e317c52c7a2e454f8e40b83b7499"
   integrity sha512-oInsIj6cR5ZI1ayHcf2X1PaXgJTlbjA9pdQE2z25FMoTA144gzPxJm8VTysrWNVgFqXuxaILa284W5uQGnPiDg==
 
-"@jswork/next-sets@^1.0.3":
+"@jswork/next-sets@^1.0.5":
   version "1.0.5"
-  resolved "https://registry.npmmirror.com/@jswork/next-sets/-/next-sets-1.0.5.tgz#f87ed421c4f8568d1c7265354e06cf4b6d290fad"
+  resolved "https://registry.npmjs.org/@jswork/next-sets/-/next-sets-1.0.5.tgz#f87ed421c4f8568d1c7265354e06cf4b6d290fad"
   integrity sha512-u+YtuFG1hxIVT5VJCyNmR6z5wYtHPk1X18u90RgoxBZ5HJYqwJU0A4O8+YN8Pvlejz9dlul/lDtqCFGeKcIAjQ==
 
 "@jswork/next-yaml-configuration@^1.0.3":
@@ -117,9 +117,9 @@
     "@jswork/next-deep-assign" "^1.0.2"
     js-yaml "^3.14.0"
 
-"@jswork/next@^1.1.5":
+"@jswork/next@^1.1.11":
   version "1.1.11"
-  resolved "https://registry.npmmirror.com/@jswork/next/-/next-1.1.11.tgz#d952adec1cfa67f4d8e674305d4eb4fda4039d7e"
+  resolved "https://registry.npmjs.org/@jswork/next/-/next-1.1.11.tgz#d952adec1cfa67f4d8e674305d4eb4fda4039d7e"
   integrity sha512-n0IUO+2msxTO4a25ClHVSpRZbtlIeInB/ujoil5HBcG3ZavFlBegdouzr0dEuCYTGMfvpImLqylmQ26RgX9odw==
 
 "@jswork/protofill@^1.0.4":
@@ -134,10 +134,10 @@
   resolved "https://registry.npmmirror.com/@jswork/simple-date-format/-/simple-date-format-1.0.4.tgz#75eeab488ebfdcc1ecc2fda14d82992bb81fa9a8"
   integrity sha512-Adw9ei8/dn2gh6PUK7TqeXCIOjxowXwB2PW7OzOoqhwnYzj3zFjUGbOijZuC8zDEb84f4ntuFJoy2Gm88u8R9w==
 
-"@jswork/wechat-signature@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmmirror.com/@jswork/wechat-signature/-/wechat-signature-1.0.2.tgz#162cb3493bdd8a0c0503b1a05259d2b62eb538de"
-  integrity sha512-5LKpCRoSXvQFMBQMsPrZ4tAUyIM4RehQhf9PXBzhqIUyIvApeLb6Zp1eAqgOX8EFcjMIP5ghv307ymjWn44dbw==
+"@jswork/wechat-signature@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/@jswork/wechat-signature/-/wechat-signature-1.0.4.tgz#b5b9371f6a4d35001a61c36c12fea32f253a3c50"
+  integrity sha512-vw3gR+WU3ujgXZvXY5MqT6v2q35tgDxofN6J3mMh6dEcfbG6aWaF63e2274cF+yQM5HOa9uqCr5frK8S3KxY8Q==
   dependencies:
     node-cache "^5.1.2"
     node-fetch "2.6.7"
