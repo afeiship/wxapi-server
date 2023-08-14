@@ -122,10 +122,10 @@
   resolved "https://registry.npmjs.org/@jswork/next/-/next-1.1.11.tgz#d952adec1cfa67f4d8e674305d4eb4fda4039d7e"
   integrity sha512-n0IUO+2msxTO4a25ClHVSpRZbtlIeInB/ujoil5HBcG3ZavFlBegdouzr0dEuCYTGMfvpImLqylmQ26RgX9odw==
 
-"@jswork/protofill@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.npmmirror.com/@jswork/protofill/-/protofill-1.0.4.tgz#c524532ccdbfc1406a4c0e9cc0e48b69f4c1c36e"
-  integrity sha512-hODTM+Pv6GfJne3e5ompJQu3G3UTYdvXjFNflwZH6NWEkV37gCI7RZARSVQJhRBz904+sfd9Jimufos5CswRhg==
+"@jswork/protofill@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@jswork/protofill/-/protofill-1.0.5.tgz#b4d7f828d6458bb3f4071bebeba9d34507d01e8a"
+  integrity sha512-APd3TpBaD24Z3X87OeAys1JaGYDgruW1IXF3EN7nSjqF9Edn3OLWRaT5SiU9OPdXfd4O3tlHRbIXoO3KCyvdiQ==
   dependencies:
     "@jswork/simple-date-format" "^1.0.4"
 

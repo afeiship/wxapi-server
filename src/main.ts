@@ -10,6 +10,7 @@ const app = new Koa();
 const router = new Router({ prefix: '/wxapi' });
 
 router.get('/ok', (ctx) => {
+  const d = new Date();
   ctx.body = { status: 200, data: 'ok' };
 });
 
