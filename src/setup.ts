@@ -1,7 +1,7 @@
 import '@/types';
 import argsParser from 'args-parser';
 import '@jswork/next-require';
-// import '@jswork/protofill';
+import '@jswork/protofill';
 import 'log-timestamp';
 
 
